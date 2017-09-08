@@ -15,5 +15,11 @@ setuptools.setup(
     extras_require={},
     py_modules=['pyregdict', ],
     license=open('LICENSE').read(),
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: System Administrators',
+        'License :: OSI Approved :: MIT',
+        'Programming Language :: Python :: 3'
+    ],
     long_description=open('README.md').read()
 )
