@@ -14,7 +14,7 @@ import pyregdict
 def test_connexion():
     pyregdict.Registry()
     pyregdict.Registry(subkey='SOFTWARE')
-    pyregdict.Registry(subkey='HARDWARE\DESCRIPTION')
+    pyregdict.Registry(subkey=r'HARDWARE\DESCRIPTION')
 
 
 def test_access(request):
